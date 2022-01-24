@@ -7,8 +7,7 @@ body {
     font-weight: 300;
     font-size: 1.3vw;
     float:left;
-    display: flex;
-}
+  }
 
 h1{ 
   font-family: 'Barlow Condensed', sans-serif;
@@ -115,6 +114,14 @@ h2{
   }
 }
 
+body {
+  background-color: #FEFEFA;
+  font-family: 'Rasa', serif;
+  font-weight: 300;
+  font-size: 2vw;
+  float:left;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .spolarium{
@@ -153,6 +160,14 @@ h2{
     display: block;
   }
 
+  body {
+    background-color: #FEFEFA;
+    font-family: 'Rasa', serif;
+    font-weight: 300;
+    font-size: 2vw;
+    float:left;
+  }
+
   h1{ 
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 200;
@@ -184,6 +199,14 @@ h2{
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
   }
   
+}
+
+body {
+  background-color: #FEFEFA;
+  font-family: 'Rasa', serif;
+  font-weight: 300;
+  font-size: 2vw;
+  float:left;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -253,6 +276,14 @@ h2{
     margin-right: 50px;
     margin-left: 10px;
   }
+}
+
+body {
+  background-color: #FEFEFA;
+  font-family: 'Rasa', serif;
+  font-weight: 300;
+  font-size: 1.7vw;
+  float:left;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -535,6 +566,22 @@ th {
 .footer-distributed .footer-right a:hover{
     transform:scale(1.1); -webkit-transform:scale(1.1);
 }
+.footer-distributed h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F4F9E9;
+}
+.rightside{
+    float: right;
+    margin-top: -2px;
+}
+.pic{
+    margin-top: -60px;
+    height: auto;
+    width: 100px;
+}
 
+  
+  
 
   
